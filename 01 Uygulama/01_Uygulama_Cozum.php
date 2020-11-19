@@ -1,4 +1,4 @@
-<form action="soru-1.php" method="post">
+<form action="01_Uygulama_Cozum.php" method="post">
 <table>
     <tr>
         <td>Ad</td>
