@@ -1,4 +1,4 @@
-<form action="soru-3.php" method="post">
+<form action="03_Uygulama_Cozum.php" method="post">
 <table>
     <tr>
         <td>1. Öğrencinin Adı</td>
