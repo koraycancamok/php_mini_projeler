@@ -1,31 +1,40 @@
-<form action="01_Uygulama_Cozum.php" method="post">
-<table>
-    <tr>
-        <td>Ad</td>
-        <td><input type="text" name="ad" /></td>
-    </tr>
-    <tr>
-        <td>Soyad</td>
-        <td><input type="text" name="soyad" /></td>
-    </tr>
-    <tr>
-        <td>Doğum Yılı</td>
-        <td><input type="text" name="dogumyili" /></td>
-    </tr>
-    <tr>
-        <td>Bölüm</td>
-        <td><input type="text" name="bolum" /></td>
-    </tr>
-    <tr>
-        <td>Doğum Yeri</td>
-        <td><input type="text" name="dogumyeri" /></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><input type="submit" name="buton"/></td>
-    </tr>
-</table>
-</form>
+<html>
+<head>
+    <title>PHP Uygulama</title>
+</head>
+<body>
+    
+    <form action="01_Uygulama_Cozum.php" method="post">
+        <table>
+            <tr>
+                <td>Ad</td>
+                <td><input type="text" name="ad" /></td>
+            </tr>
+            <tr>
+                <td>Soyad</td>
+                <td><input type="text" name="soyad" /></td>
+            </tr>
+            <tr>
+                <td>Doğum Yılı</td>
+                <td><input type="text" name="dogumyili" /></td>
+            </tr>
+            <tr>
+                <td>Bölüm</td>
+                <td><input type="text" name="bolum" /></td>
+            </tr>
+            <tr>
+                <td>Doğum Yeri</td>
+                <td><input type="text" name="dogumyeri" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="buton"/></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
 
 <?php
 if(isset($_POST["buton"]))
